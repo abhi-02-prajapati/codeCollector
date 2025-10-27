@@ -2,7 +2,7 @@ import os
 import chardet
 from tqdm import tqdm
 
-# ✅ Default supported extensions
+#Default supported extensions
 ALLOWED_EXTENSIONS = [
     ".py", ".java", ".cpp", ".c", ".kt", ".toml", ".js", ".html", ".md", ".css"
 ]
@@ -91,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
